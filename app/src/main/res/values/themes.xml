@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CabService" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/primary_green</item>
+    </style>
+
+    <style name="Theme.CabService" parent="Base.Theme.CabService" />
+
+    <style name="Theme.CabService.FullScreen" parent="Theme.CabService">
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight"/>
+</resources>
